@@ -26,20 +26,16 @@ const questions = [
 ];
 
 for (let i = 0; i < questions.length; i++) {
-
   let user = prompt(questions[i].question + "\n Enter answer by Alphabet without comma !!");
   let correct = questions[i].correctAnswers.sort().join("");
   let givenans = user.toLowerCase().split("").sort().join("");
 
   if (givenans === correct) {
-    alert(" ✨ your answer is correct");
+    alert(" ✨ Your answer is correct!");
     score++;
-  }
-  else {
-    alert("Wrong answer❌" + correct)
+  } else {
+    alert("Wrong answer❌ Correct answer is: " + correct);
   }
 }
 
-
-
-alert("Quiz over and your score is :" + score + "/" + questions.length)
+alert("Quiz over! Your score is: " + score + "/" + questions.length);

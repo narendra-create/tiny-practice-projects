@@ -23,12 +23,6 @@
 
 
 
-
-
-
-
-
-
 // Create an empty array
 // let arr = [];
 
@@ -53,9 +47,12 @@
 
 
 
+
+
+
+
+
 // to do list(console based)
-
-
 
 let tasks = [];
 
