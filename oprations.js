@@ -3,7 +3,7 @@
 let main = prompt("Enter the number")
 
 for (let i = 1; i < 11; i++) {
-    
+
     let result = main * i;
 
     alert(result);
